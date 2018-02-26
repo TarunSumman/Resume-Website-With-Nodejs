@@ -1,0 +1,20 @@
+{
+  "name": "resumewithnodejs",
+  "version": "1.0.0",
+  "description": "This website is a dynamic nodejs website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "resume",
+    "nodejs"
+  ],
+  "author": "tarun summan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

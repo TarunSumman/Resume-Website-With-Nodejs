@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <% include partials/head.ejs %>
+   </head>
+   <body>
+      <div id="container">
+         <div id="content">
+           <% include partials/menu.ejs %>
+
+            <div id="portfolio">
+               <div class="heading">My Latest Projects</div>
+               <ul id="portfolios">
+                  <li>
+                     <a href="#">
+                        <img src="images/ecommerce.jpg">
+                        <h2 class="portfolio-title">Website 1</h2>
+                        <span class="desc">E-commerce Site</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="images/date.jpg">
+                        <h2 class="portfolio-title">Website 2</h2>
+                        <span class="desc">Dating Site</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="images/social.png">
+                        <h2 class="portfolio-title">Website 3</h2>
+                        <span class="desc">Social Site</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <img src="images/movie.jpg">
+                        <h2 class="portfolio-title">Movie FX</h2>
+                        <span class="desc">Short Film Intro</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+      </div>
+      <script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script>
+         jQuery(document).ready(function(){
+         	var $content 		= $("#content");
+         	$content.easytabs({
+         	  animate			: true,
+         	  transitionIn		:'slideDown',
+         	  transitionOut		:'slideUp',
+         	  animationSpeed	:500,
+         	  tabs				:"> .menu > ul > li",
+         	  tabActiveClass	:'active',
+         	});
+         });
+      </script>
+   </body>
+</html>
